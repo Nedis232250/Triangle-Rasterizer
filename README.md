@@ -12,7 +12,7 @@ This program will only work on Windows or a machine that has the Windows API ins
 
 ### How to use:
 
-1: Open visual studio 2022 community edition and make a project.  
+1: Open Visual Studio 2022 Community Edition and create a project.  
 2: Delete all the code in the existing file.  
 3: There should be a dropdown on the left side of the screen that says your project name. Right click it, click properties, go to "Linker" then "System" and change the "SubSystem" parameter from "Console (/SUBSYSTEM:CONSOLE)" to "Windows (/SUBSYSTEM:WINDOWS)". Click apply then ok.  
 4: Create the six C++/header files with the correct names and paste the code from the repository into the files.  
