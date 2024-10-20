@@ -12,11 +12,11 @@ If you haven't seen at the top, this program will only work on windows or a mach
 
 ### Lessons/Concepts I learned and now understand
 
-1. Templates:
+#### 1. Templates:
 
 Even though I didn't use templates in my project, earlier versions that didn't work out as expected did use templates and I understand their function clearly and I feel like my future projects will depend on them a lot. I feel like C++ templates are a programming concept that I am grateful to know how to use.
 
-2: Don't depend on excessive use of "std::vector":
+#### 2: Don't depend on excessive use of "std::vector":
 
-In earlier prototypes of this triangle rasterizer, I depended on heavy use of std::vector because I wasn't confident in my use of manual heap allocation (malloc()/realloc()) so I used excessive amounts of vectors and templates to include the types of the vectors in my first prototype which turned out to be a big mistake. The manual amount of allocation needed to run the rasterizer made it run at under 10 frames per second and froze my entire computer for about half a minute after I resized, opened or closed the window. This was probably because of the destruction and recreation of the vector that was storing pixel data and shifting the previous vector's data into a "holding vector" stupidly named vector called "temp" which gave my computer a stroke. Lesson learned, use manual heap allocation (thankfully this project made me a lot more confident with it)
+In earlier prototypes of this triangle rasterizer, I depended on heavy use of std::vector because I wasn't confident in my use of manual heap allocation (malloc()/realloc()) so I used excessive amounts of vectors and templates to include the types of the vectors in my first prototype which turned out to be a big mistake. The manual amount of allocation needed to run the rasterizer made it run at under 10 frames per second and froze my entire computer for about half a minute after I resized, opened or closed the window. This was probably because of the destruction and recreation of the vector that was storing pixel data and shifting the previous vector's data into a "holding vector" stupidly named "temp" which gave my computer a stroke. Lesson learned, use manual heap allocation (thankfully this project made me a lot more confident with it)
 
