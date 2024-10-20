@@ -2,4 +2,4 @@
 
 *Note: Only works on windows*
 
-## What it does
+### What it does
