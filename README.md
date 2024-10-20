@@ -8,7 +8,7 @@ A triangle rasterizer is a program that takes three vertices in screen space and
 
 ## VERY IMPORTANT:
 
-If you haven't seen at the top of the README file, this program will only work on Windows or a machine that has the Windows API installed on it. This is because the Windows API holds all the functions to display pixel data on the heap and it handles the window creation, destruction, resizing and many other window functions.
+If you haven't seen at the top of the README file, this program will only work on Windows or a machine that has the Windows API installed on it. This is because the Windows API holds all the functions to display pixel data on the heap and it handles the window creation, destruction, resizing and many other Windows functions.
 
 ### How to use:
 
