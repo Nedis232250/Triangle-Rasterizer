@@ -11,3 +11,10 @@ A triangle rasterizer is a program that takes three vertices in screen space and
 If you haven't seen at the top, this program will only work on windows or a machine that has the Windows API installed on it. This is because the Windows API holds all the functions to display pixel data on the heap and it handles all the window creation, destruction, resizing and more.
 
 ### Lessons/Concepts I learned and now understand
+
+1. Templates:
+
+Even though I didn't use templates in my project, earlier versions that didn't work out as expected did use templates and I understand their function clearly and I feel like my future projects will depend on them a lot. I feel like C++ templates are a programming concept that I am grateful to know how to use.
+
+2: Don't depend on excessive use of "std::vector":
+
