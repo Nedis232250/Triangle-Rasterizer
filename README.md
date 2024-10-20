@@ -34,3 +34,5 @@ It just didn't work. I figured it was way too slow for my liking. This project w
 
 ### Future improvements:
 
+- I might want to create a vertex/fragment shader
+- Optimize with NVidia CUDA programming
