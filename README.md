@@ -1,6 +1,6 @@
 # Triangle Rasterizer in C++ with the Windows 32-bit API
 
-*Note: Only works on windows*
+*Note: Only works on Windows*
 
 ### What it does:
 
@@ -8,7 +8,15 @@ A triangle rasterizer is a program that takes three vertices in screen space and
 
 ## VERY IMPORTANT:
 
-If you haven't seen at the top, this program will only work on windows or a machine that has the Windows API installed on it. This is because the Windows API holds all the functions to display pixel data on the heap and it handles all the window creation, destruction, resizing and more.
+If you haven't seen at the top of the README file, this program will only work on Windows or a machine that has the Windows API installed on it. This is because the Windows API holds all the functions to display pixel data on the heap and it handles the window creation, destruction, resizing and many other window functions.
+
+### How to use:
+
+##### 1: Open visual studio 2022 community edition and make a project.
+##### 2: Delete all the code in the existing file
+##### 3: There should be a dropdown on the left side of the screen that says your project name. Right click it, click properties, go to "Linker" then "System" and change the "SubSystem" parameter from "Console (/SUBSYSTEM:CONSOLE)" to "Windows (/SUBSYSTEM:WINDOWS)". Click apply then ok.
+##### 4: Create the six C++/header files with the correct names and paste the code from the repository into the files.
+##### 5: At the top of your screen, there is a button that says "Local Windows Debugger". There are some dropdowns that probably are set to "Debug" and "x64" keep the "x64" and change the "Debug" to "Release". Click the "Local Windows Debugger" to run the program (it will autosave when you run it).
 
 ### Lessons/Concepts I learned and now understand
 
