@@ -22,4 +22,4 @@ In earlier prototypes of this triangle rasterizer, I depended on heavy use of st
 
 #### 3. Refrain from the use of the Windows API function: "COLORREF SetPixel([in] HDC hdc, [in] int x, [in] int y, [in] COLORREF color);" as I found it to be impossible to make it asynchronous with the <future> header and the whole screen filled up with pixels slowly. Like really slowly (this was done in VS community edition 2022 release x64):
 
-Look at this piece of code:
+It just didn't work, I figured it was way too slow for my liking. This project was not only meant to work, but it had to be fast enough to actually be used practically.
