@@ -18,8 +18,6 @@ This program will only work on Windows or a machine that has the Windows API ins
 4: Create the six C++/header files with the correct names and paste the code from the repository into the files.  
 5: At the top of your screen, there is a button that says "Local Windows Debugger". There are some dropdowns that probably are set to "Debug" and "x64" keep the "x64" and change the "Debug" to "Release". Click the "Local Windows Debugger" to run the program (it will autosave when you run it).  
 
-*YouTube video showing how to use this:*
-
 ### Lessons/Concepts I learned and now understand
 
 #### 1. Templates:
