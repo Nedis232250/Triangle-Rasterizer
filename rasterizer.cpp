@@ -97,7 +97,6 @@ void triangle(unsigned int* triangle_ptr, Vertex_F v1_f, Vertex_F v2_f, Vertex_F
     
     for (int i = 0; i < triangle.size(); i++) {
         if (triangle[i].x < max(v1.x, max(v2.x, v3.x)) && triangle[i].x > min(v1.x, min(v2.x, v3.x)) && triangle[i].y < max(v1.y, max(v2.y, v3.y)) && triangle[i].y > min(v1.y, min(v2.y, v3.y))) {
-            color = triangle_ptr[triangle[i].y * sw + triangle[i].x - 1];
             triangle_ptr[triangle[i].y * sw + triangle[i].x - 1] = (float)rgbtoh(triangle[i].color);
         }
     }
